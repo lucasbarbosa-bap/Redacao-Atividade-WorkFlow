@@ -1,0 +1,51 @@
+:root{
+    --corBody: #1a1a1a;
+    --corCard: cyan;
+    --corTexto: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--corBody);
+    color: var(--corTexto);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+}
+
+main{
+    padding: 20px;
+
+    border: solid 2px white;
+    border-radius: 10px;
+
+    opacity: 0.6;
+
+    transition:all 0.2s ease-in-out;
+}
+
+main:hover{
+    opacity: 1;
+}
+
+h1,h2,p{
+    margin: 10px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
